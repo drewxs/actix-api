@@ -1,12 +1,12 @@
 use serde::Deserialize;
 
-#[derive(Deserialize, Clone)]
+#[derive(Deserialize)]
 pub struct CreateTodo {
     pub title: String,
     pub date: i64,
 }
 
-#[derive(Deserialize, Clone)]
+#[derive(Deserialize)]
 pub struct UpdateTodo {
     pub title: String,
 }
